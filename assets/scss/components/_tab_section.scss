@@ -1,0 +1,100 @@
+.tab_section {
+    padding-bottom: 135px;
+
+    .list {
+        h3 {
+            line-height: 56px;
+            margin-bottom: 18px;
+        }
+
+        .list_p {
+            line-height: 30px;
+            margin-bottom: 26px;
+        }
+    }
+
+    .container {
+        ul {
+            li {
+                list-style: none;
+
+
+
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: transparent;
+
+                    .line {
+                        width: 70px;
+                        height: 1px;
+                        background-color: $blackColor;
+                        display: none;
+                    }
+
+                    .tab_section_btn {
+                        width: 270px;
+                        position: relative;
+
+                        h1 {
+                            color: $blackColorShadow;
+                        }
+
+                        h2 {
+                            position: absolute;
+                            top: 35px;
+                            -webkit-text-stroke: 1px $blackColor;
+                        }
+                    }
+
+                    &:hover {
+                        .tab_section_btn {
+                            background-color: $blackColor;
+                            color: $white_color;
+                            padding: 10px 0px 0px 20px;
+                        }
+
+                        h1 {
+                            color: $grayColor;
+                        }
+
+                        .line {
+                            padding-left: 30px;
+                            width: 70px;
+                            height: 1px;
+                            background-color: $blackColor;
+                            display: block;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .tab_group {
+            display: flex;
+
+            p {
+                margin-bottom: 9px;
+            }
+
+            .tab_icon {
+                height: 27px;
+                width: 27px;
+                border-radius: 50%;
+                background-color: $tabIconBGColor;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .tab_section {
+        padding-bottom: 40px;
+    }
+}

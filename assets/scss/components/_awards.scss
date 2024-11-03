@@ -1,0 +1,58 @@
+.awards-section {
+    padding: 135px 0px;
+
+
+
+    .left_awards_content {
+        margin-bottom: 65px;
+
+        .counter {
+            font-size: 48px;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: transparent;
+            -webkit-text-stroke: 1px $blackColor;
+        }
+
+        h5 {
+            color: transparent;
+            -webkit-text-stroke: 1px $blackColor;
+        }
+    }
+
+    .right_awards_content {
+        .awards_content {
+            line-height: 45px;
+        }
+
+        .awards_line {
+            height: 3px;
+            width: 30px;
+            background-color: $blackColor;
+            margin-top: 13px;
+        }
+
+        .down_content {
+            display: flex;
+            gap: 16px;
+            margin-top: 43px;
+
+            p {
+                margin-bottom: 3px;
+            }
+
+            h5 {
+                margin-bottom: 3px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .awards-section {
+        padding: 90px 0px;
+    }
+}

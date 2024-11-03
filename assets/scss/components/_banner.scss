@@ -1,0 +1,13 @@
+.banner_section{
+    padding-bottom: 135px;
+    img{
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .banner_section{
+        padding-bottom: 70px;
+    }
+}

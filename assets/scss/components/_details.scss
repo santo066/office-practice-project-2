@@ -1,0 +1,17 @@
+.details-section{
+    background-color: $background_color;
+    color: $grayColor;
+    padding: 135px 0px;
+        h5{
+            line-height: 43.7px;
+            margin-bottom: 26px;
+            &:hover{
+                color: $white_color;
+            }
+        }
+}
+@media only screen and (max-width: 425px) {
+    .details-section{
+        padding: 100px 20px;
+    }
+}
